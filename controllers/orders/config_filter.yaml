@@ -16,6 +16,7 @@ scopes:
         options:
             OFFLINE\Mall\Classes\PaymentState\PaidState: offline.mall::lang.payment_status.paid
             OFFLINE\Mall\Classes\PaymentState\RefundedState: offline.mall::lang.payment_status.refunded
+            OFFLINE\Mall\Classes\PaymentState\PartiallyRefundedState: offline.mall::lang.payment_status.partially_refunded
             OFFLINE\Mall\Classes\PaymentState\FailedState: offline.mall::lang.payment_status.failed
             OFFLINE\Mall\Classes\PaymentState\PendingState: offline.mall::lang.payment_status.pending
     shipping_pending:
